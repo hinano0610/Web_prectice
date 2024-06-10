@@ -13,7 +13,7 @@ header {
   font-size: 50px;
 }
 
-.section{
+.section {
   width: 100%;
   height: 50vh;
 }
@@ -27,8 +27,8 @@ header {
   font-family: "Geologica", sans-serif;
 }
 
-@media screen and (max-width:395px) {
-  iframe{
+@media screen and (max-width: 395px) {
+  iframe {
     width: 100%;
     height: 300px;
   }
@@ -41,17 +41,18 @@ header {
   align-items: center;
   margin-top: 20px;
   height: 50vh;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width:395px) {
-.name {
-font-size: 20px;
-position: relative;
-left: 150px
+@media screen and (max-width: 395px) {
+  .name {
+    font-size: 20px;
+    position: relative;
+    left: 150px;
   }
 }
 
-@media screen and (max-width:395px) {
+@media screen and (max-width: 395px) {
   .picture2 > img {
     width: 100%;
     height: 300px;
@@ -59,29 +60,29 @@ left: 150px
 }
 
 .description {
-  font-size: 35px;
+  font-size: 20px;
   font-family: "Chokokutai", cursive;
   line-height: 2;
+  flex: 1;
 }
 
-@media screen and (max-width:395px) {
-.description {
-  display: flex;
-  width: 100%;
-  font-size:15px;
-  position: relative;
-  left: 200px;
+@media screen and (max-width: 395px) {
+  .description {
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    position: relative;
+    left: 200px;
+  }
 }
-}
-
 
 .pic1 {
-  height: 420px;
+  height: 350px;
   width: 50%;
 }
 
 .pic3 {
-  height: 400px;
+  height: 350px;
 }
 
 .front {
@@ -101,7 +102,6 @@ left: 150px
   top: 250px;
 }
 
-
 .syoukai {
   font-size: 40px;
   color: white;
@@ -111,7 +111,7 @@ left: 150px
   top: 380px;
 }
 
-
-
-
-
+.back {
+  color: black;
+  
+}
